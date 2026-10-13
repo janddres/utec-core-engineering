@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-print("{}".format("".join(
-    chr(i) for i in range(ord('a'), ord('z') + 1)
-    if chr(i) not in "eq"
-)))
+for i in range(ord('a'), ord('z') + 1):
+    if chr(i) not in "eq":
+        print("{}".format(chr(i)), end="")
