@@ -9,7 +9,7 @@ else:
 
 
 if digit > 5:
-    print(f"Last digit of {number} is {digit} and greater than 5")
+    print(f"Last digit of {number} is {digit} and is greater than 5")
 elif digit == 0:
     print(f"Last digit of {number} is {digit} and is 0")
 else:
