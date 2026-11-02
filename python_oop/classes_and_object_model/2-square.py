@@ -9,8 +9,8 @@ class Square:
     def __init__(self, size=0):
         """Inicializa el cuadrado con validación de tipo y valor."""
         if not isinstance(size, int):
-            raise TypeError("El valor ingresado debe ser un entero")
+            raise TypeError("size must be an integer")
         if size < 0:
-            raise ValueError("El valor ingresado debe ser >= 0")
+            raise ValueError("size must be >= 0")
         
         self.__size = size
